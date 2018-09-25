@@ -32,5 +32,6 @@ dependencies {
   compile group: 'org.fusesource.jansi', name: 'jansi', version: '1.17.1'
 
   //--- add scala class
+  compileOnly group: 'org.scala-lang', name: 'scala-library', version: deps.scala
   compileOnly files("$sourceSets.main.scala.outputDir")
 }

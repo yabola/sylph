@@ -1,9 +1,9 @@
 ext.moduleName = 'ideal.sylph.main'
 
 dependencies {
-  compile group: 'org.javassist', name: 'javassist', version: '3.22.0-GA'
+  compile group: 'org.javassist', name: 'javassist', version: '3.23.1-GA'
 
-  runtime group: 'org.scala-lang', name: 'scala-library', version: '2.11.11'
+  runtime group: 'org.scala-lang', name: 'scala-library', version: deps.scala
 
   compile project(':sylph-controller')
   compile(project(':sylph-spi'))

@@ -5,15 +5,13 @@ subprojects {
         serviceInterface 'ideal.sylph.etl.PipelinePlugin'
     }
 
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
-
     configurations.all {
         resolutionStrategy {  preferProjectModules() }
     }
 
     dependencies {
         compileOnly project(":sylph-etl-api")
+        compileOnly group: 'org.scala-lang', name: 'scala-library', version: deps.scala
     }
 
     def plugins=project(':sylph-dist').buildDir.path + "/etl-plugins/${name}"

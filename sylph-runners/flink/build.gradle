@@ -22,6 +22,7 @@ dependencies {
   runtime "org.apache.flink:flink-cep-scala_2.11:$deps.flink"
 
   //--- other----
+  compileOnly group: 'org.scala-lang', name: 'scala-library', version: deps.scala
   compile (project(':sylph-parser')){
     exclude(module: 'guava')
   }

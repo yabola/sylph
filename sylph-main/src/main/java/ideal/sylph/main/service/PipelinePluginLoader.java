@@ -43,6 +43,7 @@ import java.io.File;
 import java.io.IOException;
 import java.lang.annotation.AnnotationFormatError;
 import java.lang.annotation.IncompleteAnnotationException;
+import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.net.URL;
@@ -64,7 +65,7 @@ public class PipelinePluginLoader
     private Set<PipelinePluginManager.PipelinePluginInfo> pluginsInfo;
 
     public void loadPlugins()
-            throws InvocationTargetException, NoSuchMethodException, IllegalAccessException, IOException
+            throws InvocationTargetException, NoSuchMethodException, IllegalAccessException, IOException, InstantiationException
     {
         File pluginsDir = new File("etl-plugins");
         if (!pluginsDir.exists() || !pluginsDir.isDirectory()) {
@@ -102,18 +103,30 @@ public class PipelinePluginLoader
 
     @SuppressWarnings("unchecked")
     private static Set<Class<? extends PipelinePlugin>> loadPipelinePlugins(ClassLoader pluginClassLoader)
-            throws IOException, NoSuchMethodException, InvocationTargetException, IllegalAccessException
+            throws IOException, NoSuchMethodException, InvocationTargetException, IllegalAccessException, InstantiationException
     {
         final String fullName = PREFIX + PipelinePlugin.class.getName();
         final Enumeration<URL> configs = pluginClassLoader.getResources(fullName);
 
-        Method method = ServiceLoader.class.getDeclaredMethod("parse", Class.class, URL.class);
+        Object obj = null;
+        Method method = null;
+        Class<?>[] a1 = ServiceLoader.class.getDeclaredClasses();
+        for (Class<?> it : a1) {
+            if (it.getName().equals("java.util.ServiceLoader$LazyClassPathLookupIterator")) {
+                method = it.getDeclaredMethod("parse", URL.class);
+                Constructor constructor = it.getDeclaredConstructor(ServiceLoader.class);
+                constructor.setAccessible(true);
+                obj = constructor.newInstance(ServiceLoader.load(PipelinePlugin.class));
+                break;
+            }
+        }
+        requireNonNull(method);
+
         method.setAccessible(true);
         ImmutableSet.Builder<Class<? extends PipelinePlugin>> builder = ImmutableSet.builder();
         while (configs.hasMoreElements()) {
             URL url = configs.nextElement();
-            Iterator<String> iterator = (Iterator<String>) method
-                    .invoke(ServiceLoader.load(PipelinePlugin.class), PipelinePlugin.class, url);
+            Iterator<String> iterator = (Iterator<String>) method.invoke(obj, url);
             iterator.forEachRemaining(x -> {
                 Class<?> javaClass = null;
                 try {

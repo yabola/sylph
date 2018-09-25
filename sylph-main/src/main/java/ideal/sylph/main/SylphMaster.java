@@ -66,7 +66,7 @@ public final class SylphMaster
             injector.getInstance(ControllerApp.class).start();
             //ProcessHandle.current().pid()
             logger.info("\n" + logo);
-            logger.info("======== SERVER STARTED this pid is {}========");
+            logger.info("======== SERVER STARTED this pid is {}========", ProcessHandle.current().pid());
         }
         catch (Throwable e) {
             logger.error("SERVER START FAILED...", e);

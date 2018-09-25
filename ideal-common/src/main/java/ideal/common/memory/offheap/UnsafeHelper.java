@@ -15,7 +15,7 @@
  */
 package ideal.common.memory.offheap;
 
-import sun.misc.Cleaner;
+import jdk.internal.ref.Cleaner;
 import sun.misc.Unsafe;
 
 import java.lang.reflect.Constructor;

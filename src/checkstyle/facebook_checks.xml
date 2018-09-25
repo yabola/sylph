@@ -198,8 +198,8 @@
                 com.datastax.driver.$internal,
                 org.weakref.jmx.internal,
                 jersey.repackaged,
-                jdk.nashorn.internal,
-                jdk.internal" />
+                bak.jdk.internal,
+                jdk.nashorn.internal" />
         </module>
     </module>
 </module>

@@ -50,6 +50,7 @@ task build_webapp(type: Copy, dependsOn: build_package){
 }
 assemble.dependsOn 'build_webapp'
 dependencies {
+  compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.8.1'
   compile group: 'javax.servlet', name: 'javax.servlet-api', version: '3.1.0'
   compile(project(':sylph-spi'))
   compile project(':ideal-common')
@@ -79,4 +80,7 @@ dependencies {
   }
 
   compile group: 'com.fasterxml.jackson.jaxrs', name: 'jackson-jaxrs-json-provider', version: deps.jackson
+
+  //---jdk11 add this
+  compile group: 'javax.activation', name: 'activation', version: '1.1.1'
 }

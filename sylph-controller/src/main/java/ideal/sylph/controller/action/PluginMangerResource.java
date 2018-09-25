@@ -82,7 +82,7 @@ public class PluginMangerResource
                     .put("driver", pluginInfo.getDriverClass())
                     .put("description", pluginInfo.getDescription())
                     .put("version", pluginInfo.getVersion())
-                    .put("types", pluginInfo.getJavaGenerics())
+                    .put("types", (sun.reflect.generics.tree.TypeArgument[]) pluginInfo.getJavaGenerics())
                     .put("realTime", pluginInfo.getRealTime())
                     .put("type", pluginInfo.getPipelineType())
                     .put("config", config)

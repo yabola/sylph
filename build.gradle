@@ -11,11 +11,17 @@ allprojects{
     apply plugin: 'maven'
     apply plugin: 'checkstyle'
 
-    sourceCompatibility = 1.8
-    targetCompatibility = 1.8
+    sourceCompatibility = 1.11
+    targetCompatibility = 1.11
 
     tasks.withType(JavaCompile) {
         options.encoding = 'UTF-8'
+        //options.compilerArgs.addAll(['--release', '8'])
+        options.compilerArgs << "--add-modules=jdk.unsupported"
+        options.compilerArgs << "--add-exports=java.base/jdk.internal.ref=ALL-UNNAMED"
+        options.compilerArgs << "--add-exports=java.base/sun.reflect.generics.reflectiveObjects=ALL-UNNAMED"
+        options.compilerArgs << "--add-exports=java.base/sun.reflect.generics.tree=ALL-UNNAMED"
+        options.compilerArgs << "--add-exports=java.base/sun.reflect.generics.repository=ALL-UNNAMED"
     }
     tasks.withType(ScalaCompile) {
         options.encoding = 'UTF-8'
@@ -26,7 +32,7 @@ allprojects{
             jetty: "9.4.6.v20170531",   //8.1.17.v20150415   "9.4.6.v20170531"
             hadoop: "2.7.4",
             spark: "2.3.1",
-            scala: '2.11.8',
+            scala: '2.11.12',
             joda_time:'2.9.3',
             log4j12:'1.7.21',
             guice:'4.2.1',
