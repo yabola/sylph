@@ -365,7 +365,7 @@ jsPlumb.ready(function () {
         addPorts(_addEndpoints, node, config.in, config.out);
         //节点绑定双击事件
         var userConfig = nodeInfo.config
-        userConfig.driver = nodeInfo.driver
+        userConfig.driver = nodeInfo.name[0]
         userConfig.name = text+"_"+uid
         userConfig.type = nodeInfo.type
         var currentNode = {
