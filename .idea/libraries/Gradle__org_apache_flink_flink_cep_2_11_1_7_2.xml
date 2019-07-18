@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.flink:flink-cep_2.11:1.7.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-cep_2.11/1.7.2/dc700492cfbb226a71380eba8bfa5346a13badd6/flink-cep_2.11-1.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-cep_2.11/1.7.2/edf59b4d99c72dad404aec65bc36d1c81a91f4ae/flink-cep_2.11-1.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

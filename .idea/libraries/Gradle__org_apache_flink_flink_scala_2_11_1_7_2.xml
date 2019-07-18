@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.flink:flink-scala_2.11:1.7.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-scala_2.11/1.7.2/7af7d4e7e73001a178cf84f8f67c88cd089db250/flink-scala_2.11-1.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-scala_2.11/1.7.2/7e1d48e008937fb0f7d5c1bab11a9c749db9cad0/flink-scala_2.11-1.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

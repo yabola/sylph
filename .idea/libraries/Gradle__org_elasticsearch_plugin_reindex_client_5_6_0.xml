@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.elasticsearch.plugin:reindex-client:5.6.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch.plugin/reindex-client/5.6.0/870b8a12ce918ed27fc3207ec85d65a89caa9386/reindex-client-5.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch.plugin/reindex-client/5.6.0/215ac2ac6ef6ec68bb83f0ad957230228d49288b/reindex-client-5.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

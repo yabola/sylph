@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.housepower:clickhouse-native-jdbc:1.5-stable">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.github.housepower/clickhouse-native-jdbc/1.5-stable/871a3441636f52857bc76e266a1cbef3593fefd3/clickhouse-native-jdbc-1.5-stable.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.github.housepower/clickhouse-native-jdbc/1.5-stable/4725e046257bb1ac270eb8ab24a1363e82e9225f/clickhouse-native-jdbc-1.5-stable-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.calcite.avatica:avatica-core:1.11.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.calcite.avatica/avatica-core/1.11.0/84cb55de88c76a26af18390b8020483172752d46/avatica-core-1.11.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.calcite.avatica/avatica-core/1.11.0/52ab923b07c1ffb90b369ad0a878980e2fed8994/avatica-core-1.11.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.kudu:kudu-client:1.7.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.kudu/kudu-client/1.7.0/54918a2c68142816a4f53a9c24efab492315a100/kudu-client-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.kudu/kudu-client/1.7.0/5c847b19d71ba29f3b1a145532c7889f9ff3b8f6/kudu-client-1.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

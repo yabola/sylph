@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.elasticsearch:elasticsearch:5.6.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch/5.6.0/238e1331436859fb45affc58c66f32327f81e9f/elasticsearch-5.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch/elasticsearch/5.6.0/d5d8afdaaf88ab0d17c90c01afc0672101024b73/elasticsearch-5.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

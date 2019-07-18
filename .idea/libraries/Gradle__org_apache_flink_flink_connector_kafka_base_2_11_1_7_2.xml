@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.flink:flink-connector-kafka-base_2.11:1.7.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-connector-kafka-base_2.11/1.7.2/308e2e8fb2a1eff826685ca678b3616c62e5a4ca/flink-connector-kafka-base_2.11-1.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-connector-kafka-base_2.11/1.7.2/c4299b45a5d1a27bf72feb80378f1ce246a8e199/flink-connector-kafka-base_2.11-1.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

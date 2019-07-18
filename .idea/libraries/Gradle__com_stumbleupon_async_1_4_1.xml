@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.stumbleupon:async:1.4.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/stumbleupon/async/1.4.1/async-1.4.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.stumbleupon/async/1.4.1/25b9507a58570c349d32a80e395bc29da091059c/async-1.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.stumbleupon/async/1.4.1/d75b265b266140d148e40efab1a261e6e9e362e6/async-1.4.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.elasticsearch.plugin:parent-join-client:5.6.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch.plugin/parent-join-client/5.6.0/6487f426a74ea936878b919f09e58479ec945f5c/parent-join-client-5.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch.plugin/parent-join-client/5.6.0/f996a3736815527305a76d579ba7a8a6bd6b9962/parent-join-client-5.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

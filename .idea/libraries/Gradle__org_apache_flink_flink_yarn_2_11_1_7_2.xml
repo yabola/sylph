@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.flink:flink-yarn_2.11:1.7.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-yarn_2.11/1.7.2/c2e13b647339d835f699897d843a36e478c9d610/flink-yarn_2.11-1.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-yarn_2.11/1.7.2/b2387ddd034ba15addcdb1f95252bd33f3d69feb/flink-yarn_2.11-1.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

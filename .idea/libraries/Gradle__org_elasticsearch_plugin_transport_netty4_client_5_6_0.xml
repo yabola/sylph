@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.elasticsearch.plugin:transport-netty4-client:5.6.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch.plugin/transport-netty4-client/5.6.0/ab9d0bd75de9c38ac02985cda31b691cf2c531c9/transport-netty4-client-5.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch.plugin/transport-netty4-client/5.6.0/c97d9c7499191001bf9f9fc1ccaeaa7a0d79da3a/transport-netty4-client-5.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

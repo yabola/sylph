@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.harbby:es-shaded:5.6.0-1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.github.harbby/es-shaded/5.6.0-1/82855086a445407778ab9b2e61fb68aaa619a09f/es-shaded-5.6.0-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.github.harbby/es-shaded/5.6.0-1/603241a24c4337e4f58f3a0d0111307b4ee1e8ec/es-shaded-5.6.0-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

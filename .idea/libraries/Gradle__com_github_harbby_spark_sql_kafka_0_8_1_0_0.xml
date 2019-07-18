@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.harbby:spark-sql-kafka-0-8:1.0.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.github.harbby/spark-sql-kafka-0-8/1.0.0/cfe384a1917fd4f9b7dfbf9ed2e28f4273ed1014/spark-sql-kafka-0-8-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/com.github.harbby/spark-sql-kafka-0-8/1.0.0/40a51bdc361d123cd5651a1d8c206a6062e7757e/spark-sql-kafka-0-8-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

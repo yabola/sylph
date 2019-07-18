@@ -17,8 +17,6 @@ package ideal.sylph.parser.antlr;
 
 import ideal.sylph.parser.antlr.tree.Node;
 import ideal.sylph.parser.antlr.tree.Statement;
-import ideal.sylph.parser.antlr4.SqlBaseLexer;
-import ideal.sylph.parser.antlr4.SqlBaseParser;
 import org.antlr.v4.runtime.BaseErrorListener;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;

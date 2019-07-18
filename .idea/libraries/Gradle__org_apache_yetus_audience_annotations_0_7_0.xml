@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.yetus:audience-annotations:0.7.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.yetus/audience-annotations/0.7.0/916cb60034a7829082092b5da952f38d34dacc31/audience-annotations-0.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.yetus/audience-annotations/0.7.0/15218de14a36897b6d74f106bbef55c764906d1c/audience-annotations-0.7.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

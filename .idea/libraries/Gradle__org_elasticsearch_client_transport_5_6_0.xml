@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.elasticsearch.client:transport:5.6.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch.client/transport/5.6.0/77ce1af2811939da392549b13f197758279ce005/transport-5.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.elasticsearch.client/transport/5.6.0/d373a2d01ea20387c44f005c94d7b62918eca937/transport-5.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

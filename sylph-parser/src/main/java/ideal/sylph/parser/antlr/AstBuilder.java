@@ -35,8 +35,6 @@ import ideal.sylph.parser.antlr.tree.SelectQuery;
 import ideal.sylph.parser.antlr.tree.StringLiteral;
 import ideal.sylph.parser.antlr.tree.TableElement;
 import ideal.sylph.parser.antlr.tree.WaterMark;
-import ideal.sylph.parser.antlr4.SqlBaseBaseVisitor;
-import ideal.sylph.parser.antlr4.SqlBaseParser;
 import org.antlr.v4.runtime.ParserRuleContext;
 import org.antlr.v4.runtime.Token;
 import org.antlr.v4.runtime.misc.Interval;

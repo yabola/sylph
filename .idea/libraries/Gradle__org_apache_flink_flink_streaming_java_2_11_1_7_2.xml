@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.flink:flink-streaming-java_2.11:1.7.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-streaming-java_2.11/1.7.2/df8e19b515a82ed170cad0884f5c58dad7c3f545/flink-streaming-java_2.11-1.7.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/caches/modules-2/files-2.1/org.apache.flink/flink-streaming-java_2.11/1.7.2/ab3d5e9ff5df569d07bc19a620bba1a427f482e1/flink-streaming-java_2.11-1.7.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
