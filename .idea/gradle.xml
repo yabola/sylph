@@ -3,19 +3,18 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/sylph-base-kafka" />
             <option value="$PROJECT_DIR$/sylph-connectors" />
             <option value="$PROJECT_DIR$/sylph-connectors/spark-kafka" />
             <option value="$PROJECT_DIR$/sylph-connectors/spark-kafka08" />
             <option value="$PROJECT_DIR$/sylph-connectors/sylph-clickhouse" />
             <option value="$PROJECT_DIR$/sylph-connectors/sylph-elasticsearch5" />
             <option value="$PROJECT_DIR$/sylph-connectors/sylph-elasticsearch6" />
-            <option value="$PROJECT_DIR$/sylph-connectors/sylph-hdfs" />
             <option value="$PROJECT_DIR$/sylph-connectors/sylph-kafka" />
             <option value="$PROJECT_DIR$/sylph-connectors/sylph-kafka08" />
             <option value="$PROJECT_DIR$/sylph-connectors/sylph-kafka09" />
@@ -27,6 +26,7 @@
             <option value="$PROJECT_DIR$/sylph-etl-api" />
             <option value="$PROJECT_DIR$/sylph-main" />
             <option value="$PROJECT_DIR$/sylph-parser" />
+            <option value="$PROJECT_DIR$/sylph-prop-kafka" />
             <option value="$PROJECT_DIR$/sylph-runners" />
             <option value="$PROJECT_DIR$/sylph-runners/flink" />
             <option value="$PROJECT_DIR$/sylph-runners/spark" />

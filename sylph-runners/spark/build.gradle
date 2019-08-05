@@ -12,7 +12,7 @@ dependencies {
     exclude(module: 'validation-api')
     exclude(module: 'commons-io')
   }
-  
+  compile group: 'org.projectlombok', name: 'lombok-maven', version: '1.16.10.0'
   compileOnly 'org.scala-lang:scala-reflect:2.11.8'
 
   compileOnly(group: 'org.apache.spark', name: 'spark-sql_2.11', version: deps.spark) {

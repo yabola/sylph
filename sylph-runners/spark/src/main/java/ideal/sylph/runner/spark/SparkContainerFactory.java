@@ -15,6 +15,7 @@
  */
 package ideal.sylph.runner.spark;
 
+import com.github.harbby.gadtry.ioc.Bean;
 import com.github.harbby.gadtry.ioc.IocFactory;
 import com.github.harbby.gadtry.jvm.JVMLauncher;
 import com.github.harbby.gadtry.jvm.JVMLaunchers;
@@ -41,6 +42,9 @@ import static java.util.Objects.requireNonNull;
 public class SparkContainerFactory
         implements ContainerFactory
 {
+    Bean b =  binder -> {
+        binder.bind(SparkAppLauncher.class).by(SparkAppLauncher.class).withSingle();
+    };
     private final IocFactory injector = IocFactory.create(new YarnModule(), binder -> {
         binder.bind(SparkAppLauncher.class).by(SparkAppLauncher.class).withSingle();
     });

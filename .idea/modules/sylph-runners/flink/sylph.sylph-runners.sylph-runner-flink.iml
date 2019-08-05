@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../../sylph-runners/flink">
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-runners/flink/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-runners/flink/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-runners/flink/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

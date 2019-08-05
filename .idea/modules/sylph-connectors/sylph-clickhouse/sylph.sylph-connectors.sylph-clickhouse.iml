@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-clickhouse">
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-clickhouse/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-clickhouse/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-clickhouse/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

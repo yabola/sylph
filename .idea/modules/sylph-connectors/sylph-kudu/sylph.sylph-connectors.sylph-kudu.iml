@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kudu">
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kudu/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kudu/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kudu/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

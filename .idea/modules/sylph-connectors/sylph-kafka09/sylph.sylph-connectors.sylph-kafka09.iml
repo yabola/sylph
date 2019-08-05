@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kafka09">
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kafka09/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kafka09/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kafka09/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

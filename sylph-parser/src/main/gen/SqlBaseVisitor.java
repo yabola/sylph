@@ -1,4 +1,4 @@
-// Generated from D:/yunji_worksapce/sylph/sylph-parser/src/main/antlr/ideal/sylph/parser/antlr4\SqlBase.g4 by ANTLR 4.7.2
+// Generated from /workspace/sylph/sylph-parser/src/main/antlr/ideal/sylph/parser/antlr4/SqlBase.g4 by ANTLR 4.7.2
 
 package ideal.sylph.parser.antlr4;
 

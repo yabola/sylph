@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../sylph-spi">
       <excludeFolder url="file://$MODULE_DIR$/../../../sylph-spi/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../sylph-spi/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../sylph-spi/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -5,9 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.harbby.sylph.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.harbby.sylph.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.harbby.sylph.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.harbby.sylph.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.github.harbby.sylph.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.github.harbby.sylph.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-base-kafka/sylph.sylph-base-kafka.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-base-kafka/sylph.sylph-base-kafka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-base-kafka/sylph.sylph-base-kafka.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-base-kafka/sylph.sylph-base-kafka.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-base-kafka/sylph.sylph-base-kafka.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-base-kafka/sylph.sylph-base-kafka.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph.sylph-connectors.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph.sylph-connectors.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph.sylph-connectors.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph.sylph-connectors.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/spark-kafka/sylph.sylph-connectors.spark-kafka.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/spark-kafka/sylph.sylph-connectors.spark-kafka.iml" />
@@ -25,9 +22,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-elasticsearch6/sylph.sylph-connectors.sylph-elasticsearch6.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-elasticsearch6/sylph.sylph-connectors.sylph-elasticsearch6.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-elasticsearch6/sylph.sylph-connectors.sylph-elasticsearch6.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-elasticsearch6/sylph.sylph-connectors.sylph-elasticsearch6.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-elasticsearch6/sylph.sylph-connectors.sylph-elasticsearch6.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-elasticsearch6/sylph.sylph-connectors.sylph-elasticsearch6.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-hdfs/sylph.sylph-connectors.sylph-hdfs.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-hdfs/sylph.sylph-connectors.sylph-hdfs.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-hdfs/sylph.sylph-connectors.sylph-hdfs.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-hdfs/sylph.sylph-connectors.sylph-hdfs.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-hdfs/sylph.sylph-connectors.sylph-hdfs.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-hdfs/sylph.sylph-connectors.sylph-hdfs.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-kafka/sylph.sylph-connectors.sylph-kafka.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-kafka/sylph.sylph-connectors.sylph-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-kafka/sylph.sylph-connectors.sylph-kafka.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-kafka/sylph.sylph-connectors.sylph-kafka.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-kafka/sylph.sylph-connectors.sylph-kafka.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-connectors/sylph-kafka/sylph.sylph-connectors.sylph-kafka.test.iml" />
@@ -62,6 +56,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-parser/sylph.sylph-parser.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-parser/sylph.sylph-parser.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-parser/sylph.sylph-parser.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-parser/sylph.sylph-parser.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-parser/sylph.sylph-parser.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-parser/sylph.sylph-parser.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-prop-kafka/sylph.sylph-prop-kafka.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-prop-kafka/sylph.sylph-prop-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-prop-kafka/sylph.sylph-prop-kafka.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-prop-kafka/sylph.sylph-prop-kafka.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-prop-kafka/sylph.sylph-prop-kafka.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-prop-kafka/sylph.sylph-prop-kafka.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-runners/sylph.sylph-runners.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-runners/sylph.sylph-runners.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-runners/sylph.sylph-runners.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-runners/sylph.sylph-runners.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/sylph-runners/flink/sylph.sylph-runners.sylph-runner-flink.iml" filepath="$PROJECT_DIR$/.idea/modules/sylph-runners/flink/sylph.sylph-runners.sylph-runner-flink.iml" />

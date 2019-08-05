@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id=":sylph-connectors:sylph-kafka:test" external.linked.project.path="$MODULE_DIR$/../../../../sylph-connectors/sylph-kafka" external.root.project.path="$MODULE_DIR$/../../../.." external.system.id="GRADLE" external.system.module.group="com.github.harbby" external.system.module.type="sourceSet" external.system.module.version="0.6.0-alpha3" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output-test url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kafka/build/classes/java/test" />
+    <output-test url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kafka/out/test/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kafka/src/test">
       <sourceFolder url="file://$MODULE_DIR$/../../../../sylph-connectors/sylph-kafka/src/test/java" isTestSource="true" />
@@ -10,7 +10,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="sylph.sylph-connectors.sylph-kafka.main" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-connector-kafka-0.10_2.11:1.7.2" level="project" />
-    <orderEntry type="module" module-name="sylph.sylph-base-kafka.main" />
+    <orderEntry type="module" module-name="sylph.sylph-prop-kafka.main" />
     <orderEntry type="module" module-name="sylph.sylph-spi.main" />
     <orderEntry type="module" module-name="sylph.sylph-runners.sylph-runner-flink.main" />
     <orderEntry type="module" module-name="sylph.sylph-yarn.main" />
@@ -22,12 +22,12 @@
     <orderEntry type="library" name="Gradle: org.mockito:mockito-core:2.23.4" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-connector-kafka-0.9_2.11:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.kafka:kafka-clients:0.10.2.1" level="project" />
-    <orderEntry type="library" name="Gradle: org.apache.flink:flink-connector-kafka-base_2.11:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-streaming-java_2.11:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-scala_2.11:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-table_2.11:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-cep-scala_2.11:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-cep_2.11:1.7.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.flink:flink-connector-kafka-base_2.11:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-clients_2.11:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-optimizer_2.11:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-runtime_2.11:1.7.2" level="project" />
@@ -38,7 +38,7 @@
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-annotations:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:flink-metrics-core:1.7.2" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.flink:force-shading:1.7.2" level="project" />
-    <orderEntry type="library" name="Gradle: org.javassist:javassist:3.25.0-GA" level="project" />
+    <orderEntry type="library" name="Gradle: org.javassist:javassist:3.24.0-GA" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang:scala-compiler:2.11.12" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang:scala-reflect:2.11.12" level="project" />
     <orderEntry type="library" name="Gradle: org.scala-lang.modules:scala-xml_2.11:1.0.5" level="project" />

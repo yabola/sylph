@@ -4,7 +4,7 @@ dependencies {
   }
   compile group: 'org.apache.flink', name: 'flink-connector-kafka-0.10_2.11', version: deps.flink
   
-  compile project(':sylph-base-kafka')
+  compile project(':sylph-prop-kafka')
 
   testCompile project(':sylph-runners:sylph-runner-flink')
   testCompile project(':sylph-spi')

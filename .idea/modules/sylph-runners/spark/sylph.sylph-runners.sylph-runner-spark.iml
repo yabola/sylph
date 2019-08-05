@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$/../../../../sylph-runners/spark">
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-runners/spark/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-runners/spark/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../../sylph-runners/spark/out" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

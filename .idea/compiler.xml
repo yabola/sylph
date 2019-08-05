@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.github.harbby.spark-kafka.main" target="1.8" />
       <module name="com.github.harbby.spark-kafka.test" target="1.8" />
@@ -90,6 +93,8 @@
       <module name="sylph.sylph-main.test" target="1.8" />
       <module name="sylph.sylph-parser.main" target="1.8" />
       <module name="sylph.sylph-parser.test" target="1.8" />
+      <module name="sylph.sylph-prop-kafka.main" target="1.8" />
+      <module name="sylph.sylph-prop-kafka.test" target="1.8" />
       <module name="sylph.sylph-runners.main" target="1.8" />
       <module name="sylph.sylph-runners.sylph-runner-flink.main" target="1.8" />
       <module name="sylph.sylph-runners.sylph-runner-flink.test" target="1.8" />

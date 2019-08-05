@@ -80,4 +80,8 @@ public class AntlrSqlParser
             throw new ParsingException(name + " is too large (stack overflow while parsing)");
         }
     }
+
+    public static void main(String[] args) {
+
+    }
 }
